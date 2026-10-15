@@ -1,0 +1,28 @@
+/* светлая тема: белый + фиолетовый */
+body.light{background:#fdfaff;color:#2b1a47}
+.light .top .nav a{color:#3a2360}
+.light .nav a:hover{color:#8f3fe0}
+.light .brand span{background:linear-gradient(90deg,#9b4df0,#d04dd8,#6f3fe0,#9b4df0);background-size:250% 100%;-webkit-background-clip:text;background-clip:text;color:transparent;text-shadow:none}
+.light .brand svg{color:#a24df0;filter:drop-shadow(0 0 5px #c79cff)}
+.light .hero{background:linear-gradient(180deg,#efe3ff 0%,#f7f0ff 55%,#fdfaff 100%)}
+.light .hero-glow{background:radial-gradient(60% 42% at 50% 36%,#c9a0ff55,transparent 72%)}
+.light .yoga span{background:linear-gradient(110deg,#6d2fd6 0%,#a24df0 25%,#e06bd0 48%,#8a4df0 70%,#5d28c4 100%);background-size:260% 100%;-webkit-background-clip:text;background-clip:text;color:transparent;filter:drop-shadow(0 6px 18px #b98cff88);animation:shimmer 6s linear infinite,breatheL 5s ease-in-out infinite}
+@keyframes breatheL{0%,100%{filter:drop-shadow(0 6px 16px #b98cff66)}50%{filter:drop-shadow(0 8px 30px #c46bffaa)}}
+.light .hero-lotus svg stop:nth-child(1){stop-color:#9b5cf0}
+.light .hero-lotus svg stop:nth-child(2){stop-color:#c24dd8}
+.light .hero-lotus svg stop:nth-child(3){stop-color:#6a2fd0}
+.light .pill{color:#fff;background:linear-gradient(90deg,#8a4df0,#b24dd8);box-shadow:0 10px 30px #a870ff66}
+.light .pill:hover{box-shadow:0 16px 44px #a870ffaa}
+.light .quote{color:#3a2360}
+.light .block h2{color:#2b1a47}
+.light .sub{color:#5a4680}
+.light .sub a{border-bottom-color:#a24df088}
+.light .card{box-shadow:0 18px 40px #9a6fe033,0 0 0 1px #ffffff55 inset}
+.light .orb.fill{color:#fff;background:radial-gradient(circle at 35% 28%,#c58bff 0%,#9a4df0 50%,#6d2fd6 100%);box-shadow:0 14px 34px #a870ff66}
+.light .orb.dark{background:#fff;box-shadow:0 10px 30px #a870ff33,0 0 0 1px #e6d8ff inset;animation:none}
+.light .orb.dark svg stop:nth-child(1){stop-color:#c24dd8}
+.light .orb.dark svg stop:nth-child(2){stop-color:#7a3fe6}
+.light .foot{color:#7b66a3;border-top-color:#e6d8ff}
+.light .card .aura svg stop:nth-child(1){stop-color:#fff}
+.light .card{color:#fff}
+.light .card p{background:linear-gradient(180deg,transparent,#2c1a4a99 45%,#2c1a4acc)}
